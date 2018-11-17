@@ -8,17 +8,16 @@
   HARDENING_SUPPORT="no"
 
 # Name of the Distro to build (full name, without special characters)
-  DISTRONAME="LibreELEC"
+  DISTRONAME="CULT"
 
 # short project description
   DESCRIPTION="LibreELEC is a fast and user-friendly Kodi Entertainment Center distribution."
 
 # Welcome Message for e.g. SSH Server (up to 5 Lines)
   GREETING0="##############################################"
-  GREETING1="#        LibreELEC 9.0 Reborn Remix          #"
-  GREETING2="#           https://goo.gl/TemeuW            #"
-  GREETING3="#       based on https://libreelec.tv        #"
-  GREETING4="##############################################"
+  GREETING1="#      	        CULT 1.0                  #"
+  GREETING2="#         https://www.cultstation.it         #"
+  GREETING3="##############################################"
 
 # Root password to integrate in the target system
   ROOT_PASSWORD="libreelec"
@@ -206,7 +205,7 @@
   ADDON_URL="$ADDON_SERVER_URL/$ADDON_PATH"
 
 # Default size of system partition, in MB, eg. 512
-  SYSTEM_SIZE=1024
+  SYSTEM_SIZE=512
 # Default system partition offset, in sectors, eg. 2048
   SYSTEM_PART_START=8192
 
@@ -219,7 +218,7 @@
   GET_HANDLER_SUPPORT="archive"
 
 # Partition labels for USB/SD installation media
-  DISTRO_BOOTLABEL="LIBREELEC"
+  DISTRO_BOOTLABEL="CULT"
   DISTRO_DISKLABEL="STORAGE"
 
 # Settings package name - blank if not required

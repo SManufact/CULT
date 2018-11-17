@@ -23,10 +23,7 @@ OEM_APPS_AMLOGIC=""
 
 OEM_APPS_GENERIC=" \
   dmidecode \
-  google-chrome \
-  smartmontools \
-  spotify \
-  tigervnc-system"
+  smartmontools"
 
 OEM_APPS_RPI=""
 
@@ -34,16 +31,8 @@ OEM_EMU_COMMON=" \
   emulationstation-retropie \
   retroarch \
   dosbox-sdl2 \
-  hatari \
-  moonlight-embedded \
-  ppsspp \
-  lr-2048 \
-  lr-atari800 \
-  lr-beetle-pce-fast \
-  lr-beetle-wswan \
   lr-bluemsx \
-  lr-chailove \
-  lr-desmume \
+  lr-bsnes-mercury-accuracy \
   lr-dosbox \
   lr-fbalpha2018 \
   lr-fceumm \
@@ -51,50 +40,18 @@ OEM_EMU_COMMON=" \
   lr-gambatte \
   lr-genplus \
   lr-mame2003-plus \
-  lr-mgba \
-  lr-mrboom \
+  lr-mame2010 \
   lr-mupen64plus \
   lr-nestopia \
-  lr-pcsx-rearmed \
-  lr-prboom \
-  lr-reicast \
-  lr-samples \
-  lr-scummvm \
-  lr-stella \
-  lr-tyrquake"
-
-OEM_EMU_AMLOGIC=" \
-  amiberry \
-  lr-mame2010 \
+  lr-snes9x \
   lr-snes9x2010 \
-  lr-vice \
-  lr-yabause"
+  lr-vice"
 
-OEM_EMU_GENERIC=" \
-  citra \
-  dolphin \
-  fs-uae \
-  mupen64plus \
-  PCSX2 \
-  vice \
-  yquake2 \
-  lr-beetle-psx \
-  lr-beetle-saturn \
-  lr-bsnes-mercury-accuracy \
-  lr-citra \
-  lr-dolphin \
-  lr-ishiiruka \
-  lr-mame2016 \
-  lr-mesen \
-  lr-parallel-n64 \
-  lr-snes9x"
+OEM_EMU_AMLOGIC=""
 
-OEM_EMU_RPI=" \
-  amiberry \
-  lr-mame2010 \
-  lr-snes9x2010 \
-  lr-vice \
-  lr-yabause"
+OEM_EMU_GENERIC=""
+
+OEM_EMU_RPI=""
 
 if [ "$OEM_APPS" == "yes" ]; then
   PKG_DEPENDS_TARGET="$PKG_DEPENDS_TARGET $OEM_APPS_COMMON"

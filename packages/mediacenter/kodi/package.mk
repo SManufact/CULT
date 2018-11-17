@@ -12,9 +12,9 @@ PKG_PATCH_DIRS="$KODI_VENDOR"
 
 case $KODI_VENDOR in
   raspberrypi)
-    PKG_VERSION="newclock5_18.0b5-Leia"
-    PKG_SHA256="f447006ce1dee5053579fc5193cac1e2e8c19074e71ed86c71e60089232ee2cf"
-    PKG_URL="https://github.com/popcornmix/xbmc/archive/$PKG_VERSION.tar.gz"
+    PKG_VERSION="445e5e74aee322c53a672aff8239d3750517aa16"
+    PKG_SHA256="68544eafeab4dd64fed31befe5e968cceffb1408caf5951890bd48fde273b5da"
+    PKG_URL="https://github.com/francescoricciardi/xbmc-CULT/archive/$PKG_VERSION.tar.gz"
     PKG_SOURCE_NAME="kodi-$KODI_VENDOR-$PKG_VERSION.tar.gz"
     ;;
   rockchip)
